@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/pizza.png</file>
+        <file>img/pizza2.png</file>
+        <file>img/dollar.png</file>
+        <file>img/grocery.png</file>
+        <file>img/app.png</file>
+        <file>apps/sqlite3.exe</file>
+        <file>apps/FoodDB.db</file>
+        <file>img/add.png</file>
+        <file>img/delete.png</file>
+        <file>img/listadd.png</file>
+        <file>img/listdelete.png</file>
+        <file>img/foodpricer.ico</file>
+        <file>img/input.png</file>
+        <file>img/close.png</file>
+        <file>img/changematerial.png</file>
+        <file>img/changename.png</file>
+        <file>img/deletefood.png</file>
+        <file>img/makefood.png</file>
+        <file>img/foodprice.png</file>
+        <file>img/rewind.png</file>
+        <file>img/calculate.png</file>
+        <file>img/duplicate.png</file>
+        <file>img/edit.png</file>
+        <file>img/food.png</file>
+        <file>img/remove.png</file>
+        <file>img/password.png</file>
+        <file>img/foodduplicate.png</file>
+    </qresource>
+</RCC>

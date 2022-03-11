@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EnterDialog</class>
+ <widget class="QDialog" name="EnterDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/img/app.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QToolBox" name="toolBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>123</y>
+     <width>261</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="tabSpacing">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>259</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <attribute name="icon">
+     <iconset resource="reso.qrc">
+      <normaloff>:/img/input.png</normaloff>:/img/input.png</iconset>
+    </attribute>
+    <attribute name="label">
+     <string>Login</string>
+    </attribute>
+    <widget class="QPushButton" name="loginPB">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>90</y>
+       <width>181</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="password">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>B Nazanin</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="maxLength">
+      <number>20</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>password</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>259</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <attribute name="icon">
+     <iconset resource="reso.qrc">
+      <normaloff>:/img/app.png</normaloff>:/img/app.png</iconset>
+    </attribute>
+    <attribute name="label">
+     <string>Register</string>
+    </attribute>
+    <widget class="QPushButton" name="registerPB">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>250</y>
+       <width>181</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Register</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="uuid">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>60</y>
+       <width>251</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color: rgb(248, 248, 248);</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>37</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Computer ID</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>130</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>License key</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="license">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>150</y>
+       <width>251</width>
+       <height>91</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="registeredLBL">
+     <property name="geometry">
+      <rect>
+       <x>83</x>
+       <y>0</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Registered 👌</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="copyPB">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>30</y>
+       <width>41</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>copy</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>password</tabstop>
+  <tabstop>loginPB</tabstop>
+  <tabstop>registerPB</tabstop>
+  <tabstop>uuid</tabstop>
+  <tabstop>license</tabstop>
+  <tabstop>copyPB</tabstop>
+ </tabstops>
+ <resources>
+  <include location="reso.qrc"/>
+ </resources>
+ <connections/>
+</ui>
