@@ -75,7 +75,6 @@ int main(int argc, char *argv[])
 
 //    QFile file1("C:/Users/Mohammad/Desktop/mm.txt"); //resource files are read-only
 //    file1.open(QIODevice::WriteOnly);
-//    file1.write("hellloooooo");
 //    file1.close();
 
 
